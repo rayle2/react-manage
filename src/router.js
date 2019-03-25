@@ -6,7 +6,7 @@ import Admin from './admin'
 import Buttons from './pages/ui/buttons/index'
 import NoMacth from './pages/noMatch'
 
-export default class IRouter extends React.Component {
+export default class Router extends React.Component {
   render() {
     return (
       <HashRouter>
