@@ -4,10 +4,11 @@ import './index.css';
 // import App from './App';
 // import Life from './pages/demo/Life'
 // import Admin from './admin'
-import Home from './pages/route_demo/route1/Home'
+// import Home from './pages/route_demo/route1/Home'
+import IRoute from './pages/route_demo/route2/router'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<IRoute />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
