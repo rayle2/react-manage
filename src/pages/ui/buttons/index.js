@@ -20,8 +20,7 @@ export default class Buttons extends React.Component {
           <Button icon="delete">删除</Button>
           <Button icon="search" shape="circle" />
           <Button type="primary" icon="search">
-            搜素
-          </Button>
+            搜素</Button>
           <Button type="primary" icon="download">下载</Button>
         </Card>
         <Card title="载入按钮">
