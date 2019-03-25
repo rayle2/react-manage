@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Button } from 'antd'
 import './ui.less'
 
+
 export default class Buttons extends React.Component {
   render() {
     // 加载任何页面前，加载hashrouter
