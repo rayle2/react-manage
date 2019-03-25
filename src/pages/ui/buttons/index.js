@@ -22,9 +22,7 @@ export default class Buttons extends React.Component {
           <Button type="primary" icon="search">
             搜素
           </Button>
-          <Button type="primary" icon="download">
-            下载
-          </Button>
+          <Button type="primary" icon="download">下载</Button>
         </Card>
         <Card title="载入按钮">
           <Button type="primary" loading>
