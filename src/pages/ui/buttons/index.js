@@ -10,17 +10,13 @@ export default class Buttons extends React.Component {
       size: 'default'
     }
   }
+  
   handleCloseLoading() {
     this.setState({
       loading: false
     })
   }
-  // handleButtonSize(evt) {
-  //   let size = evt.target.value
-  //   this.setState({
-  //     size: size
-  //   })
-  // }
+
   handleChange(evt) {
     this.setState({
       size: evt.target.value
