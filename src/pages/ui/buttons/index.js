@@ -57,7 +57,7 @@ export default class Buttons extends React.Component {
                         关闭
                     </Button>
                 </Card>
-                <Card title="按钮组">
+                <Card title="按钮组" style={{marginBottom: 20}}>
                     <Button.Group>
                         <Button icon="left" type="primary">
                             返回
