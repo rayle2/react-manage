@@ -3,9 +3,6 @@ import {Card, Spin, Icon, Alert} from 'antd'
 import '../ui.less'
 
 export default class Loading extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         const icon = <Icon type='loading' style={{fontSize: 24}}/>

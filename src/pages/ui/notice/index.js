@@ -1,11 +1,8 @@
 import React from 'react'
-import {Card, Button, notification, Icon, Alert} from 'antd'
+import {Card, Button, notification} from 'antd'
 import '../ui.less'
 
-export default class notices extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+export default class Notices extends React.Component {
 
     openNotice = (type, direction) => {
         notification[type]({
